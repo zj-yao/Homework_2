@@ -20,6 +20,8 @@ Last updated: 2026-05-01.
 - 报告草稿已开始写在 `tex_report/main.tex`，报告图表素材已生成在 `tex_report/figures/`。
 - 本机 TeX Live 可用路径：`/data/yzj/texlive/2025/bin/x86_64-linux/`。
 - `tex_report/main.tex` 已用该 TeX Live 编译生成 `tex_report/main.pdf`。
+- 本地 Git 仓库已初始化，当前分支 `main`，首个 commit 为 `1072a1c Initial homework 2 project`。
+- 远端 GitHub 仓库尚未创建/推送：本机没有 `gh`，没有可用 GitHub token，SSH 到 GitHub 当前为 `Permission denied (publickey)`。
 
 ## Data
 
@@ -192,7 +194,7 @@ Items still requiring user-provided information before final submission:
 2. Update README with final commands and results.
 3. Compile `tex_report/main.tex` to final PDF after a TeX distribution is available.
 4. Upload final model weights to a cloud drive and put the link in the report.
-5. Create or push a public GitHub repository.
+5. Create a public GitHub repository and push local `main`.
 
 ## Important Notes
 
