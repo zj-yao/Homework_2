@@ -1,0 +1,33 @@
+experiment:
+  name: unet_dice
+  project: homework2-segmentation
+  output_dir: outputs/segmentation/unet_dice
+  seed: 42
+  logger: none
+
+data:
+  root: data/stanford_background
+  image_dir: images
+  mask_dir: labels
+  train_split: splits/train.txt
+  val_split: splits/val.txt
+  num_classes: 8
+  image_size: [256, 256]
+  ignore_index: -1
+  normalize: false
+
+model:
+  in_channels: 3
+  num_classes: 8
+  base_channels: 32
+  bilinear: false
+
+train:
+  device: cuda
+  epochs: 50
+  batch_size: 4
+  num_workers: 4
+  optimizer: adamw
+  lr: 0.001
+  weight_decay: 0.0001
+  loss: dice

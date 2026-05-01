@@ -1,0 +1,27 @@
+{
+  "video": "data/videos/campus_road_01.mp4",
+  "output": "outputs/detection_tracking/tracked_video/campus_road_01_yolov8s_tracked_counted.mp4",
+  "frames": 586,
+  "tracker": "bytetrack.yaml",
+  "conf": 0.25,
+  "iou": 0.5,
+  "imgsz": 640,
+  "line": {
+    "start": [
+      640.0,
+      180.0
+    ],
+    "end": [
+      640.0,
+      720.0
+    ]
+  },
+  "count": 5,
+  "crossed_ids": [
+    1,
+    24,
+    26,
+    67,
+    90
+  ]
+}

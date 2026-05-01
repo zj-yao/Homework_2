@@ -1,0 +1,117 @@
+{
+  "classification": {
+    "resnet18_pretrained": {
+      "split": "test",
+      "loss": 0.4810932878793197,
+      "accuracy": 0.8853472109286062,
+      "num_samples": 6149.0,
+      "checkpoint": "outputs/classification/resnet18_pretrained_baseline/best.pt"
+    },
+    "resnet18_random": {
+      "split": "test",
+      "loss": 3.3185053040272123,
+      "accuracy": 0.3626605952187347,
+      "num_samples": 6149.0,
+      "checkpoint": "outputs/classification/resnet18_random_init/best.pt"
+    },
+    "resnet18_se": {
+      "split": "test",
+      "loss": 0.5718246334647237,
+      "accuracy": 0.8580256952349976,
+      "num_samples": 6149.0,
+      "checkpoint": "outputs/classification/resnet18_se_block/best.pt"
+    },
+    "resnet34_pretrained": {
+      "split": "test",
+      "loss": 0.42194977609186535,
+      "accuracy": 0.8863229793462352,
+      "num_samples": 6149.0,
+      "checkpoint": "outputs/enhanced/classification/resnet34_pretrained_60ep/best.pt"
+    }
+  },
+  "segmentation": {
+    "unet_ce": {
+      "miou": 0.577633904768031,
+      "per_class_iou": [
+        0.83630904895143,
+        0.669894089610534,
+        0.7906906804001367,
+        0.6769202771420642,
+        0.35683084247466196,
+        0.6747786187109923,
+        0.051975078275720295,
+        0.5636726025787084
+      ],
+      "loss": 0.5996718576529643
+    },
+    "unet_dice": {
+      "miou": 0.5566163682502168,
+      "per_class_iou": [
+        0.8346546514491631,
+        0.6543762967249724,
+        0.7966543869209809,
+        0.6535661609101053,
+        0.31983291112884754,
+        0.6429625313065688,
+        0.0,
+        0.5508840075610956
+      ],
+      "loss": 0.38177632701980485
+    },
+    "unet_ce_dice": {
+      "miou": 0.6005972923546388,
+      "per_class_iou": [
+        0.840089206940496,
+        0.6789158978864646,
+        0.8062351158259363,
+        0.6719350447373214,
+        0.3573964981378452,
+        0.683831161955435,
+        0.19288557492851938,
+        0.5734898384250923
+      ],
+      "loss": 1.0844299914119961
+    },
+    "unet64_ce_dice": {
+      "miou": 0.587394912653116,
+      "per_class_iou": [
+        0.8285455334609494,
+        0.6446936162047876,
+        0.7972504054940125,
+        0.6766693518057018,
+        0.3414934103610156,
+        0.6792592693036101,
+        0.15780950546382969,
+        0.5734382091310218
+      ],
+      "loss": 1.110116756045735
+    }
+  },
+  "tracking": {
+    "video": "data/videos/campus_road_01.mp4",
+    "output": "outputs/detection_tracking/tracked_video/campus_road_01_yolov8s_tracked_counted.mp4",
+    "frames": 586,
+    "tracker": "bytetrack.yaml",
+    "conf": 0.25,
+    "iou": 0.5,
+    "imgsz": 640,
+    "line": {
+      "start": [
+        640.0,
+        180.0
+      ],
+      "end": [
+        640.0,
+        720.0
+      ]
+    },
+    "count": 5,
+    "crossed_ids": [
+      1,
+      24,
+      26,
+      67,
+      90
+    ]
+  }
+}

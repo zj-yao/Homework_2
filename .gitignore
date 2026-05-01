@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+
+# Local secrets
+.secrets/
+kaggle.json
+access_token
+access_token.txt
+
+# Data and experiment outputs
+data/
+outputs/
+runs/
+wandb/
+swanlog/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Reports
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.toc
+*.xdv
+
+# OS/editor
+.DS_Store
+.vscode/

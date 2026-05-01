@@ -1,0 +1,30 @@
+seed: 42
+output_dir: outputs/classification/resnet18_pretrained_baseline
+
+data:
+  source: torchvision
+  data_dir: data/flower102
+  num_classes: 102
+  image_size: 224
+  val_ratio: 0.1
+  test_ratio: 0.1
+  split_file: null
+  num_workers: 4
+  download: true
+
+model:
+  name: resnet18
+  pretrained: true
+
+train:
+  epochs: 30
+  batch_size: 32
+  backbone_lr: 0.0001
+  head_lr: 0.001
+  weight_decay: 0.0001
+  device: auto
+
+logging:
+  backend: none
+  project: homework2-classification
+  run_name: resnet18-pretrained-baseline

@@ -1,0 +1,14 @@
+model: /data/yzj/homework2_data/pretrained/yolov8s.pt
+data_yaml: configs/detection/road_vehicle_data.yaml
+
+train:
+  epochs: 100
+  imgsz: 640
+  batch: 8
+  project: outputs/enhanced/detection_tracking/yolov8s_vehicle
+  name: yolov8s_vehicle_100ep
+  workers: 4
+  seed: 42
+  patience: 30
+  cache: false
+  amp: true
