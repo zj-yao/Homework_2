@@ -2,6 +2,8 @@
 
 This repository contains the code scaffold for Homework 2: image classification, road-vehicle detection/tracking, and semantic segmentation.
 
+Public GitHub repository: <https://github.com/zj-yao/Homework_2>
+
 Read `AGENTS.md` first for the full project breakdown, environment notes, GPU constraints, and required deliverables.
 
 ## Environment

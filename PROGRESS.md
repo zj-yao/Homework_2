@@ -21,7 +21,7 @@ Last updated: 2026-05-01.
 - 本机 TeX Live 可用路径：`/data/yzj/texlive/2025/bin/x86_64-linux/`。
 - `tex_report/main.tex` 已用该 TeX Live 编译生成 `tex_report/main.pdf`。
 - 本地 Git 仓库已初始化，当前分支 `main`，首个 commit 为 `1072a1c Initial homework 2 project`。
-- 远端 GitHub 仓库尚未创建/推送：本机没有 `gh`，没有可用 GitHub token，SSH 到 GitHub 当前为 `Permission denied (publickey)`。
+- 远端 GitHub 仓库已创建并推送：`https://github.com/zj-yao/Homework_2`。
 
 ## Data
 
@@ -184,17 +184,17 @@ PATH=/data/yzj/texlive/2025/bin/x86_64-linux:$PATH latexmk -xelatex -interaction
 Items still requiring user-provided information before final submission:
 
 - group member names, student IDs, and division of labor;
-- public GitHub repository URL;
+- public GitHub repository URL: `https://github.com/zj-yao/Homework_2`;
 - cloud-drive URL for final model weights;
 - optional SwanLab cloud screenshots if the teacher requires platform screenshots rather than exported local curves.
 
 ## Remaining Work
 
-1. Fill user-specific report fields: members, student IDs, division of labor, GitHub URL, weight URL.
+1. Fill user-specific report fields: members, student IDs, division of labor, weight URL.
 2. Update README with final commands and results.
 3. Compile `tex_report/main.tex` to final PDF after a TeX distribution is available.
 4. Upload final model weights to a cloud drive and put the link in the report.
-5. Create a public GitHub repository and push local `main`.
+5. Keep pushing final commits to public GitHub repository `https://github.com/zj-yao/Homework_2`.
 
 ## Important Notes
 
