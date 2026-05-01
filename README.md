@@ -4,7 +4,9 @@ This repository contains the code scaffold for Homework 2: image classification,
 
 Public GitHub repository: <https://github.com/zj-yao/Homework_2>
 
-Model weights: <https://drive.google.com/drive/folders/1GpObjJP_6nYOdDF8HlNkBnlWKpdh7mBl?usp=sharing>
+Model weights folder: <https://drive.google.com/drive/folders/1GpObjJP_6nYOdDF8HlNkBnlWKpdh7mBl?usp=sharing>
+
+Uploaded weights archive: <https://drive.google.com/open?id=178zInJjSr-Ue0lw0Fc0YVSLJvls1ZG4E>
 
 Read `AGENTS.md` first for the full project breakdown, environment notes, GPU constraints, and required deliverables.
 
@@ -198,5 +200,6 @@ Final submission needs:
 - PDF experiment report: `tex_report/main.pdf`;
 - public GitHub repository link: <https://github.com/zj-yao/Homework_2>;
 - model weights uploaded to cloud storage: <https://drive.google.com/drive/folders/1GpObjJP_6nYOdDF8HlNkBnlWKpdh7mBl?usp=sharing>;
+- uploaded archive: `homework2_model_weights.zip`, direct link <https://drive.google.com/open?id=178zInJjSr-Ue0lw0Fc0YVSLJvls1ZG4E>;
 - wandb or swanlab screenshots for loss and validation metrics;
 - task results tables for Accuracy, mAP, and mIoU.

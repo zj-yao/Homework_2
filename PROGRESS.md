@@ -23,6 +23,11 @@ Last updated: 2026-05-01.
 - 本地 Git 仓库已初始化，当前分支 `main`，首个 commit 为 `1072a1c Initial homework 2 project`。
 - 远端 GitHub 仓库已创建并推送：`https://github.com/zj-yao/Homework_2`。
 - Google Drive 模型权重链接已提供：`https://drive.google.com/drive/folders/1GpObjJP_6nYOdDF8HlNkBnlWKpdh7mBl?usp=sharing`。
+- 模型权重已实际上传到 Google Drive：
+  - `homework2_model_weights.zip`，直接链接 `https://drive.google.com/open?id=178zInJjSr-Ue0lw0Fc0YVSLJvls1ZG4E`；
+  - `WEIGHTS_MANIFEST.txt`；
+  - `SHA256SUMS.txt`。
+  - Drive 端 zip MD5：`ce483e8cbe79de93c3a4e773e44bb0af`，与本地一致。
 - 小组成员信息已提供并写入报告/README：
   - 姚宗骏，25110980027；
   - 付思维，25210980037；
@@ -190,6 +195,7 @@ Items already filled in the report:
 
 - public GitHub repository URL: `https://github.com/zj-yao/Homework_2`;
 - cloud-drive URL for final model weights: `https://drive.google.com/drive/folders/1GpObjJP_6nYOdDF8HlNkBnlWKpdh7mBl?usp=sharing`;
+- direct uploaded weights archive: `https://drive.google.com/open?id=178zInJjSr-Ue0lw0Fc0YVSLJvls1ZG4E`;
 - group member names, student IDs, and division of labor;
 
 Items still worth checking before final submission:
@@ -201,6 +207,7 @@ Items still worth checking before final submission:
 1. Recompile `tex_report/main.tex` whenever report text changes.
 2. Keep pushing final commits to public GitHub repository `https://github.com/zj-yao/Homework_2`.
 3. Optional: replace generated local curves with SwanLab cloud screenshots if the teacher strictly requires platform screenshots.
+4. Optional: revoke local rclone Google Drive credentials after submission if this is a shared machine. Config path: `~/.config/rclone/rclone.conf`.
 
 ## Important Notes
 
