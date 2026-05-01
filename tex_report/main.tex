@@ -21,13 +21,13 @@
   citecolor=blue
 }
 
-\newcommand{\todo}[1]{\textcolor{red}{【待补充：#1】}}
 \newcommand{\metric}[1]{\textbf{#1}}
 
 \title{深度学习与空间智能 Homework 2 实验报告}
 \author{
-  \todo{姓名1 / 学号1 / 分工}\\
-  \todo{姓名2 / 学号2 / 分工}
+  姚宗骏 / 25110980027 / 花卉分类实验、整体代码组织与报告整合\\
+  付思维 / 25210980037 / 车辆检测跟踪、视频处理与越线计数分析\\
+  姜涵霖 / 25110980011 / U-Net 语义分割实验、损失函数比较与结果分析
 }
 \date{2026 年 5 月}
 
@@ -36,13 +36,13 @@
 \maketitle
 
 \begin{center}
-\begin{tabular}{ll}
+\begin{tabularx}{\textwidth}{lX}
 \toprule
 代码仓库 & \url{https://github.com/zj-yao/Homework_2}\\
-模型权重 & \todo{填写百度云、Google Drive 或其他网盘链接}\\
+模型权重 & \url{https://drive.google.com/drive/folders/1GpObjJP_6nYOdDF8HlNkBnlWKpdh7mBl?usp=sharing}\\
 运行环境 & NVIDIA GeForce RTX 3060 12GB, PyTorch 2.5.1 + CUDA 12.1\\
 \bottomrule
-\end{tabular}
+\end{tabularx}
 \end{center}
 
 \begin{abstract}
@@ -341,12 +341,12 @@ bash scripts/run_enhanced_yolov8s_remaining.sh
 python scripts/generate_report_assets.py
 \end{verbatim}
 
-\section{待提交前补充项}
+\section{提交前检查项}
 
 \begin{enumerate}
-  \item 将 GitHub 仓库设为 public，并把链接填入首页。
-  \item 将模型权重上传到网盘，并把链接填入首页。
-  \item 补全小组成员姓名、学号和具体分工。
+  \item GitHub 仓库已设为 public，并已在首页给出链接。
+  \item 模型权重已上传到 Google Drive，并已在首页给出链接。
+  \item 小组成员姓名、学号和具体分工已在首页列出。
   \item 如果老师要求平台截图而不是导出的曲线图，可同步 \path{swanlog/} 后替换或补充 SwanLab 云端截图。
 \end{enumerate}
 

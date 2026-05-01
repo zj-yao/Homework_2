@@ -22,6 +22,11 @@ Last updated: 2026-05-01.
 - `tex_report/main.tex` 已用该 TeX Live 编译生成 `tex_report/main.pdf`。
 - 本地 Git 仓库已初始化，当前分支 `main`，首个 commit 为 `1072a1c Initial homework 2 project`。
 - 远端 GitHub 仓库已创建并推送：`https://github.com/zj-yao/Homework_2`。
+- Google Drive 模型权重链接已提供：`https://drive.google.com/drive/folders/1GpObjJP_6nYOdDF8HlNkBnlWKpdh7mBl?usp=sharing`。
+- 小组成员信息已提供并写入报告/README：
+  - 姚宗骏，25110980027；
+  - 付思维，25210980037；
+  - 姜涵霖，25110980011。
 
 ## Data
 
@@ -181,20 +186,21 @@ cd tex_report
 PATH=/data/yzj/texlive/2025/bin/x86_64-linux:$PATH latexmk -xelatex -interaction=nonstopmode -halt-on-error main.tex
 ```
 
-Items still requiring user-provided information before final submission:
+Items already filled in the report:
 
-- group member names, student IDs, and division of labor;
 - public GitHub repository URL: `https://github.com/zj-yao/Homework_2`;
-- cloud-drive URL for final model weights;
+- cloud-drive URL for final model weights: `https://drive.google.com/drive/folders/1GpObjJP_6nYOdDF8HlNkBnlWKpdh7mBl?usp=sharing`;
+- group member names, student IDs, and division of labor;
+
+Items still worth checking before final submission:
+
 - optional SwanLab cloud screenshots if the teacher requires platform screenshots rather than exported local curves.
 
 ## Remaining Work
 
-1. Fill user-specific report fields: members, student IDs, division of labor, weight URL.
-2. Update README with final commands and results.
-3. Compile `tex_report/main.tex` to final PDF after a TeX distribution is available.
-4. Upload final model weights to a cloud drive and put the link in the report.
-5. Keep pushing final commits to public GitHub repository `https://github.com/zj-yao/Homework_2`.
+1. Recompile `tex_report/main.tex` whenever report text changes.
+2. Keep pushing final commits to public GitHub repository `https://github.com/zj-yao/Homework_2`.
+3. Optional: replace generated local curves with SwanLab cloud screenshots if the teacher strictly requires platform screenshots.
 
 ## Important Notes
 

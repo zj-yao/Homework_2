@@ -4,7 +4,17 @@ This repository contains the code scaffold for Homework 2: image classification,
 
 Public GitHub repository: <https://github.com/zj-yao/Homework_2>
 
+Model weights: <https://drive.google.com/drive/folders/1GpObjJP_6nYOdDF8HlNkBnlWKpdh7mBl?usp=sharing>
+
 Read `AGENTS.md` first for the full project breakdown, environment notes, GPU constraints, and required deliverables.
+
+## Team
+
+| Name | Student ID | Division of labor |
+| --- | --- | --- |
+| 姚宗骏 | 25110980027 | Flower classification experiments, overall code organization, report integration |
+| 付思维 | 25210980037 | Vehicle detection/tracking, video processing, line-counting analysis |
+| 姜涵霖 | 25110980011 | U-Net semantic segmentation, loss comparison, result analysis |
 
 ## Environment
 
@@ -47,12 +57,14 @@ scripts/
 
 ## Current Status
 
-The runnable scaffold is in place for all three tasks. Real training still requires downloading/preparing:
+All three required tasks have been implemented and trained. The final report draft is in `tex_report/main.pdf`, and generated report figures are in `tex_report/figures/`.
+
+Datasets used:
 
 - `102 Category Flower Dataset`: https://www.robots.ox.ac.uk/~vgg/data/flowers/102/
 - `Road Vehicle Images Dataset`: https://www.kaggle.com/datasets/ashfakyeafi/road-vehicle-images-dataset
 - `Stanford Background Dataset`: http://dags.stanford.edu/projects/scenedataset.html
-- a 10-30 second road/campus video for tracking and line counting
+- a 19.53 second road/campus video for tracking and line counting
 
 More detailed dataset preparation notes are in `scripts/download_or_prepare_data.md`.
 
@@ -183,8 +195,8 @@ conda run -n dl_hw2 python -m src.segmentation.evaluate \
 
 Final submission needs:
 
-- PDF experiment report;
-- public GitHub repository link;
-- model weights uploaded to cloud storage;
+- PDF experiment report: `tex_report/main.pdf`;
+- public GitHub repository link: <https://github.com/zj-yao/Homework_2>;
+- model weights uploaded to cloud storage: <https://drive.google.com/drive/folders/1GpObjJP_6nYOdDF8HlNkBnlWKpdh7mBl?usp=sharing>;
 - wandb or swanlab screenshots for loss and validation metrics;
 - task results tables for Accuracy, mAP, and mIoU.
